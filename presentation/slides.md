@@ -47,56 +47,36 @@ mdc: true
   </div>
 </div>
 
-<!--
-Hook: “Don’t believe the hype.” Engineers aren’t going away.
-The shift is where the value lives: intent + constraints + verification.
-
-Personal context (optional):
-- “Two years ago at DFW Pythoneers we predicted: devs won’t go away;
-  devs who don’t leverage AI will be at a disadvantage.”
-- “Also predicted: big companies shrink teams, but more companies hire
-  smaller teams.”
-
-If you want a quick “macro” datapoint (optional):
-- Tech sector growth claim: cite and caveat (varies by definition).
-  Source: [TechNoise global count](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)
-- Venture funding headline (optional): [Crunchbase](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
--->
-
 ---
 
 ## What’s changing
 
 ### The shift
-- We still build software — we’re shifting **where engineering judgment lives**
+- We **still build** software, **but** we’re shifting **where engineering judgment lives**
 - Smaller teams, higher leverage, faster iteration
-- The craft moves “up” to **intent, constraints, and verification**
+- The craft moves “up” to **architecture, intent, constraints, and verification** away from the actual writing lines of code
 
-<!--
-This slide is the “why now” without throwing stats on screen.
--->
+![level-up](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ4amZhdnpkbHFzdGZpNjhmZ3BkY2F0eXc5MXhyMTVlMW9laXplbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fnxbTLqRqIONtWeDSr/giphy.gif)
 
 ---
 
-## Today’s Talk
+## The Landscape
 
-### Part 1 — The landscape
-- The shift, the abstraction stack, the ladder
+### DFW Preditions:
+- Two years ago at DFW Pythoneers we predicted: devs won’t go away;
+  devs who don’t leverage AI will.”
+- We Also predicted: big companies will shrink teams, but there will be more tech companies (startups) with smaller teams.”
 
-### Part 2 — Vibe Coding
-- Demo + debrief
+### Industry:
+- Tech sector continues to grow at 8 - 12 % a year
 
-### Part 3 — Context Engineering
+- Headlines: "Q1 2026 Shatters Venture Funding Records as AI Boom Pushes Startup Investment To $300B"
 
-### Part 4 — Spec-Driven Development
-- Workflow + demo + validation mindset
 
-### Q&A and Rabbit Holes :rabbit:
+Sources:
+- [TechNoise global count](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)
+- [Crunchbase](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
 
-<!--
-Set expectations: You might go over because the demos are the point.
-If time is tight, you can shorten demo #2 and extend SDD.
--->
 
 ---
 
