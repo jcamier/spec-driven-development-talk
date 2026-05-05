@@ -72,6 +72,13 @@ mdc: true
 
 - Headlines: "Q1 2026 Shatters Venture Funding Records as AI Boom Pushes Startup Investment To $300B"
 
+LinkedIn Post this week
+<img
+  class="landscape-img"
+  src="/assets/linked_in_notification_this_week.jpg"
+  alt="LinkedIn weekly hiring notification"
+/>
+
 
 Sources:
 - [TechNoise global count](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)

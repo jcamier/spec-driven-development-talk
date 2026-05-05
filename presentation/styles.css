@@ -308,3 +308,12 @@
   padding-left: 1.15em;
 }
 
+.landscape-img {
+  margin-top: 12px;
+  width: 300px;
+  max-width: 65%;
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: 0 14px 30px rgba(2, 6, 23, 0.18);
+}
+
