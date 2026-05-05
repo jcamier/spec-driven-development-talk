@@ -54,7 +54,7 @@ mdc: true
 ### The shift
 - We **still build** software, **but** we’re shifting **where engineering judgment lives**
 - Smaller teams, higher leverage, faster iteration
-- The craft moves “up” to **architecture, intent, constraints, and verification** away from the actual writing lines of code
+- The craft levels “up” to **architecture, intent, constraints, and verification** away from the actual writing lines of code
 
 ![level-up](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ4amZhdnpkbHFzdGZpNjhmZ3BkY2F0eXc5MXhyMTVlMW9laXplbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fnxbTLqRqIONtWeDSr/giphy.gif)
 
@@ -62,12 +62,12 @@ mdc: true
 
 ## The Landscape
 
-### DFW Preditions:
+#### DFW Preditions:
 - Two years ago at DFW Pythoneers we predicted: devs won’t go away;
   devs who don’t leverage AI will.”
 - We Also predicted: big companies will shrink teams, but there will be more tech companies (startups) with smaller teams.”
 
-### Industry:
+#### Industry:
 - Tech sector continues to grow at 8 - 12 % a year
 
 - Headlines: "Q1 2026 Shatters Venture Funding Records as AI Boom Pushes Startup Investment To $300B"
@@ -79,7 +79,6 @@ LinkedIn Post this week
   alt="LinkedIn weekly hiring notification"
 />
 
-
 Sources:
 - [TechNoise global count](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)
 - [Crunchbase](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
@@ -87,33 +86,18 @@ Sources:
 
 ---
 
----
-layout: statement
-class: section
----
+## The History of Developer Fears
 
-# Part 1
-## The landscape
+| Era | Worry at the time | What actually happened |
+|---|---|---|
+| 1970s-1980s (Assembly -> High-level languages) | "Compilers will replace real programmers" | Productivity jumped; engineering moved up to system design |
+| 1990s-2000s (Desktop -> Web) | "Web is a toy and won't replace desktop" | Web became dominant; SaaS and platform engineering exploded |
+| 2010s (On-prem -> Cloud) | "Cloud will eliminate ops jobs" | Roles evolved into DevOps, SRE, platform and cloud architecture |
+| Late 2000s-2010s (Mobile shift) | "Too many frameworks, impossible to keep up" | Mobile-first products became standard; new app ecosystems emerged |
+| 2020s-present (AI agents) | "AI will replace developers" | Coding accelerates, but human judgment, architecture, and validation matter more |
 
-<!--
-Use this as a clean section divider.
--->
-
----
-
-## The noise vs the shift
-
-### The noise
-- “AI will replace developers.”
-
-### The shift
-- We’re moving from writing code line-by-line…
-- to **writing intent** that agents can implement and verify.
-
-<!--
-Frame: This is an evolution of abstraction, not an extinction event.
--->
-
+### Pattern
+New abstraction appears -> fear spikes -> productivity rises -> role evolves -> adapters win.
 ---
 
 ## A familiar abstraction stack
