@@ -1,0 +1,9 @@
+# Research / transcripts (kept local, not shared by default)
+resources/
+
+# Slidev / Node
+presentation/node_modules/
+presentation/package-lock.json
+
+# OS / editor
+.DS_Store
