@@ -168,48 +168,38 @@ English Specs → "Compiles" to High-level Source Code (Python) → Compiles to 
   </div>
 </div>
 
-<!--
-Set expectation: We’ll do live coding in each mode.
--->
-
 ---
-
----
-layout: statement
-class: section
----
-
-# Part 2
-## Vibe Coding
-
----
-
-## Part 2 — Vibe Coding
-
-Speed-first exploration.
-
-<!--
-Transition line:
-“Let’s start with what most people mean by ‘agentic coding’: vibe coding.”
--->
-
+layout: two-cols
+class: vibe-compact
 ---
 
 ## 1) Vibe Coding
+
+Speed-first exploration.
 
 ### What it is
 - Prompt → code → tweak → repeat
 - Minimal upfront structure
 
 ### When it shines
-- Prototyping
+- Rapid Prototyping
 - UI experiments
 - Exploring ideas
+- Almost everyone can do it
 
 ### Failure mode
-- Inconsistent architecture
-- Hidden bugs accumulate
-- Technical debt becomes cognitive debt
+- Inconsistent and haphazard architecture
+- Hidden bugs accumulate, big time!
+- Technical debt balloons with AI Slop
+- False sense of code (Working, Non-Production)
+
+::right::
+
+<img
+  class="vibe-img"
+  src="https://media.giphy.com/media/ZS57kdXudVqsDX0TLH/giphy.gif"
+  alt="Vibe coding hamster"
+/>
 
 ---
 
