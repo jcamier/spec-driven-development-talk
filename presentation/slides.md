@@ -99,12 +99,12 @@ layout: two-cols
 class: franklin-slide
 ---
 
-## Building Through Uncertainty
+## History Lesson: Build Through Uncertainty
 
 **Benjamin Franklin (1706-1790) built during very bad and uncertain conditions:**
 - Short life expectancy (34-37 yrs), limited medicine, war, inequality, weak infrastructure.
 
-### Yet he still had amazing impact
+### Yet, he still had amazing impact
 - Incredible inventions and experiments
 - New civic institutions and systems
 - Focus on discipline and service-oriented
