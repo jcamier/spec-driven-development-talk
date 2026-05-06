@@ -459,28 +459,18 @@ class: constitution-compact
 
 ---
 
-## Feature spec: the three artifacts
-
-### 1) Plan
-Approach, task groups, sequencing.
-
-### 2) Requirements
-Constraints, acceptance criteria, key decisions.
-
-### 3) Validation (scorecard)
-How to check success (tests, manual steps, CLI commands, etc.).
-
----
 
 ## Human-in-the-loop: your new core job
 
-You are the architect / supervisor:
+You are the architect / AI supervisor:
 - Review for **spec alignment**
 - Keep changes **manageable**
 - Fix drift by updating **spec + implementation**
 
-### The risk to manage
-**AI fatigue**: huge diffs that exhaust review capacity.
+### The risk to manage:
+**Cognitive fatigue**: huge diffs that exhaust review capacity.
+- Work within your context limits, not your Agents.
+- Ultimately, you have agency and you will be held accountable for your work, not the AI Agents
 
 ---
 
