@@ -65,24 +65,19 @@ mdc: true
 #### DFW Preditions:
 - Two years ago at DFW Pythoneers we predicted: devs won’t go away;
   devs who don’t leverage AI will.”
-- We Also predicted: big companies will shrink teams, but there will be more tech companies (startups) with smaller teams.”
+- We also predicted: big companies will shrink teams, but there will be more tech companies (startups) with smaller teams.”
 
 #### Industry:
-- Tech sector continues to grow at 8 - 12 % a year
+- Tech sector continues to grow at 8 - 12 % a year. [source: TechNoise](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)
 
-- Headlines: "Q1 2026 Shatters Venture Funding Records as AI Boom Pushes Startup Investment To $300B"
+- Headlines: "Q1 2026 Shatters Venture Funding Records as AI Boom Pushes Startup Investment To $300B." [source: Crunchbase](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
 
-LinkedIn Post this week
+LinkedIn Post this week, May 4th, 2026
 <img
   class="landscape-img"
   src="/assets/linked_in_notification_this_week.jpg"
   alt="LinkedIn weekly hiring notification"
 />
-
-Sources:
-- [TechNoise global count](https://technoise.co.uk/how-many-technology-companies-are-in-the-world-a-global-count/)
-- [Crunchbase](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)
-
 
 ---
 class: compact-history
@@ -101,17 +96,26 @@ class: compact-history
 **Pattern:** new abstraction -> fear spikes -> productivity rises -> role evolves -> adapters win.
 ---
 
-## A familiar abstraction stack
+## The New Abstraction Stack
 
-Specs → Source Code → Machine Code
+English Specs → "Compiles" to High-level Source Code (Python) → Compiles to Byte/Machine Code
 
-### What changed
-- **Natural language** is now a first-class abstraction layer.
-- The engineering question becomes: *How do we make that layer precise and durable?*
+### What's changed?
+- **Natural language (English)** has become the new, high-level abstraction language.
 
-<!--
-Anchor to your notes: “English has become the high-level abstraction language.”
--->
+- What are the new syntax rules?
+  `Prompt Engineering`
+
+### What stays the same?
+-  Domain knowledge expertise required. Designing and solving complex problems.
+
+- The engineering is still: **How do we make the application meet requirements and production grade?**
+
+<img
+  class="landscape-img"
+  src="/assets/new_compilation.jpg"
+  alt="English Computer Compilation"
+/>
 
 ---
 
