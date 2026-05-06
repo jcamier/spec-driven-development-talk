@@ -346,7 +346,7 @@ class: sdd-compact
 
 ## 3) Spec-Driven Development (SDD)
 
-**Production-ready, eeliability-first engineering**
+**Production-ready, Reliability-first engineering**
 - Define the *specification first*, then generate the implementation.
 - Specification (what/why) is **decoupled** from implementation (how).
 
@@ -375,16 +375,36 @@ class: sdd-compact
 
 ---
 
-## Why SDD is the professional response
+## Why SDD is the New AI Development Paradigm
+- Allows developers to make production-grade application using AI Agents
+- Requires domain knowledge expertise, skill, art, intelligence and judgement
+- AI is automating tasks (typing code) not the ability to solve problems and build solutions (engineering)
 
 ### 1) Leverage
-Small changes to the spec can reshape large code changes.
+Small changes to the spec can reshape large parts of the system.
 
 ### 2) Anti–context decay
-Specs persist between sessions and agents.
+Specs persist across sessions, agents, and time.
 
 ### 3) Intent fidelity
-The spec forces clarity: success criteria, constraints, flows.
+The spec enforces clarity: success criteria, constraints, and flows.
+
+### 4) Verifiability
+Specs enable automated validation: tests and rules the system must always follow to ensure correct behavior.
+---
+layout: center
+class: short-video
+---
+
+<div class="shorts-wrap">
+  <iframe
+    src="https://www.youtube.com/embed/MscLPdZVMA0"
+    title="SDD short video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ---
 
