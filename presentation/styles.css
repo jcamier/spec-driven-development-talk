@@ -442,7 +442,9 @@
 /* Compact SDD definition slide */
 .slidev-layout.sdd-compact {
   position: relative;
-  padding-right: 44%;
+  /* Reclaim default Slidev margins for this dense slide */
+  padding: 1.15rem 1.3rem 0.95rem 1.35rem;
+  padding-right: 45%;
 }
 
 .slidev-layout.sdd-compact h2 {
@@ -453,8 +455,8 @@
 
 .slidev-layout.sdd-compact p,
 .slidev-layout.sdd-compact li {
-  font-size: 0.78em;
-  line-height: 1.1;
+  font-size: 0.8em;
+  line-height: 1.12;
 }
 
 .slidev-layout.sdd-compact ul {
@@ -472,10 +474,10 @@
 
 .sdd-float-img {
   position: absolute;
-  right: 0;
-  top: 3.2em;
-  width: 40%;
-  max-width: 380px;
+  right: 1.2rem;
+  top: 2.6em;
+  width: 41%;
+  max-width: 420px;
   border-radius: 12px;
   border: 1px solid rgba(15, 23, 42, 0.14);
   box-shadow: 0 10px 24px rgba(2, 6, 23, 0.16);
