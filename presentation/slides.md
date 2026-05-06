@@ -435,6 +435,9 @@ Another way to do this is [GitHub Spec Kit](https://github.com/github/spec-kit).
 
 
 ---
+layout: two-cols
+class: constitution-compact
+---
 
 ## Constitution: what it does
 
@@ -445,6 +448,14 @@ Another way to do this is [GitHub Spec Kit](https://github.com/github/spec-kit).
 ### For agents
 - High-quality context *at boot*
 - A stable anchor for decisions
+
+::right::
+
+<img
+  class="constitution-img"
+  src="/assets/constitution.jpg"
+  alt="Spec Constitution"
+/>
 
 ---
 
