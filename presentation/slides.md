@@ -95,6 +95,35 @@ class: compact-history
 
 **Pattern:** new abstraction -> fear spikes -> productivity rises -> role evolves -> adapters win.
 ---
+layout: two-cols
+class: franklin-slide
+---
+
+## Building Through Uncertainty
+
+**Benjamin Franklin (1706-1790) built during very bad and uncertain conditions:**
+- Short life expectancy (34-37 yrs), limited medicine, war, inequality, weak infrastructure.
+
+### Yet he still had amazing impact
+- Incredible inventions and experiments
+- New civic institutions and systems
+- Focus on discipline and service-oriented
+
+### Why this matters now
+- Uncertainty is normal during major transitions.
+- Great builders do not wait for perfect conditions.
+
+**Build anyway - this is how eras change!**
+
+::right::
+
+<img
+  class="franklin-img"
+  src="/assets/ben_franklin_inventory.jpg"
+  alt="Benjamin Franklin inventor"
+/>
+<p class="franklin-caption">Output over certainty.</p>
+---
 
 ## The New Abstraction Stack
 

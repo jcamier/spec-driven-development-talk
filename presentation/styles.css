@@ -333,3 +333,30 @@
   padding-bottom: 0.42em;
 }
 
+/* Franklin slide */
+.slidev-layout.franklin-slide h2 {
+  margin-bottom: 0.28em;
+}
+
+.slidev-layout.franklin-slide ul {
+  margin: 0.2em 0 0.5em;
+  padding-left: 1.1em;
+  line-height: 1.26;
+  font-size: 0.94em;
+}
+
+.franklin-img {
+  width: 100%;
+  max-width: 330px;
+  margin-top: 0.4em;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  box-shadow: 0 12px 24px rgba(2, 6, 23, 0.16);
+}
+
+.franklin-caption {
+  margin-top: 0.5em;
+  font-size: 0.86em;
+  color: rgba(2, 6, 23, 0.62);
+}
+
