@@ -422,8 +422,17 @@ This is simplied to just **3 artifacts**:
 - Keep branches and diffs reviewable
 
 ### Note
-Another way to do this is [GitHub Spec Kit](https://github.com/github/spec-kit).
-This workflow is a simplified version optimized for developer adoption.
+Another way to do this is [GitHub Spec Kit](https://github.com/github/spec-kit). With 11 folders and who knows how many files... 😅
+
+<div class="workflow-qr-wrap">
+  <img
+    class="workflow-qr"
+    src="/assets/github_spec_qr.png"
+    alt="QR code to GitHub Spec Kit"
+  />
+  <p class="workflow-qr-caption">Scan for Spec Kit</p>
+</div>
+
 
 ---
 
