@@ -203,52 +203,26 @@ Speed-first exploration.
 
 ---
 
-## Live demo #1 (Vibe)
-
-<div class="demo">
-  <div class="demo-head">
-    <div class="kicker">Live demo #1</div>
-    <div class="title">Vibe Coding</div>
-    <div class="desc">Build something fast… and feel the friction.</div>
-  </div>
-  <div class="demo-grid">
-    <div class="demo-card">
-      <div class="label">Goal</div>
-      <div class="body">Build a small feature <b>fast</b>.</div>
-    </div>
-    <div class="demo-card">
-      <div class="label">Watch for</div>
-      <div class="body">
-        <ul>
-          <li>“Hope-based engineering”</li>
-          <li>Drift in naming, layering, assumptions</li>
-          <li>The “spec” exists only as chat history</li>
-        </ul>
-      </div>
-    </div>
-    <div class="demo-card">
-      <div class="label">Debrief</div>
-      <div class="body">What would make this maintainable next week?</div>
-    </div>
-  </div>
-</div>
-
----
-
-## Demo #1 script (Vibe) — keep it intentionally vague
+## Live demo #1 (Vibing)
 
 <div class="two-col">
   <div class="col">
     <div class="callout">
-      <div class="label">Pick a tiny feature</div>
-      <ul>
-        <li>A button + small UI behavior, or a tiny endpoint</li>
-      </ul>
+      <div class="label">Prompt (all the context)</div>
+      <p><code>create the DFW Pythoneers Website</code></p>
     </div>
     <div class="callout">
-      <div class="label">Prompt style</div>
+      <div class="label">Goal</div>
       <ul>
-        <li>One-liner request with missing constraints (on purpose)</li>
+        <li>Build something <b>fast</b> and see what happens.</li>
+      </ul>
+    </div>
+    <div class="callout subtle">
+      <div class="label">Watch for</div>
+      <ul>
+        <li>“Hope-based engineering”</li>
+        <li>Drift in naming, layering, assumptions</li>
+        <li>The “spec” exists only as chat history</li>
       </ul>
     </div>
   </div>
@@ -258,6 +232,7 @@ Speed-first exploration.
       <ul>
         <li>“We didn’t give architecture, conventions, or validation.”</li>
         <li>“We’re optimizing for speed and surprise.”</li>
+        <li>“This is vibe coding: fast output, low control.”</li>
       </ul>
     </div>
     <div class="callout subtle">
@@ -271,22 +246,9 @@ Speed-first exploration.
   </div>
 </div>
 
-<!--
-If you want a concrete example:
-“Add a ‘Subscribe’ button that stores an email and shows a success state.”
-But keep it vague: no naming conventions, no error behavior, no tests.
--->
-
 ---
-
----
-layout: statement
-class: section
----
-
-# Part 3
-## Context Engineering
-
+layout: two-cols
+class: context-compact
 ---
 
 ## 2) Context Engineering
@@ -295,29 +257,63 @@ class: section
 You control the **inputs** that shape generation:
 - Rules / constraints
 - Codebase snippets
-- Schemas
-- Retrieved docs (RAG)
+- Great prompts and initial context
 
-### Benefit
-**Consistency** and fewer bad assumptions.
+### Benefit:
+- **Better Output** and fewer bad assumptions.
 
 ### Failure mode
-Still no single “contract” for the system behavior.
+- No single “contract” for the system behavior and hard to prevent scope/requirements drift.
+- Confusion that this is Spec Driven Development.
+- Context rot
+- Can drift into vibe coding, lol
+
+::right::
+
+<img
+  class="context-img"
+  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzhzMWo3amw2eTR3YmRxbzBtOXNrNDlkaTRpMmE4OHJrd2tybTRueCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/e6EYL4isGAGo8/giphy.gif"
+  alt="DJ Context Engineering"
+/>
 
 ---
 
 ## Live demo #2 (Context)
 
+### Prompt we use (more context, same feature)
+
+```txt
+Create the DFW Pythoneers Website.
+
+Tech stack constraints:
+- Backend: Django (Python)
+- Frontend: React
+- Database: SQLite
+- Styling: Tailwind CSS
+
+Tailwind palette (must use):
+- primary: #2E5C8F (light #4A7BB5, dark #1F3E63)
+- secondary: #FFD200 (light #FFE04D, dark #CCAA00)
+- accent: #E63946 (light #FF6B6B, dark #B71C2B)
+- neutral: 900 #0B0B0B, 800 #1A1A1A, 700 #2A2A2A, 300 #D1D5DB, 100 #F3F4F6
+```
+
+---
+class: context-demo-compact
+---
+
+## Live demo #2 (Context) — run + debrief
+
 <div class="demo">
   <div class="demo-head">
     <div class="kicker">Live demo #2</div>
     <div class="title">Context Engineering</div>
-    <div class="desc">Same feature — but with curated context.</div>
+    <div class="desc">Same feature, now with explicit guardrails and constraints.</div>
   </div>
   <div class="demo-grid">
     <div class="demo-card">
       <div class="label">Goal</div>
-      <div class="body">Build the <b>same</b> feature with guardrails and constraints.</div>
+      <div class="body">Build the <b>same</b> feature with detailed context and compare output quality.</div>
     </div>
     <div class="demo-card">
       <div class="label">Watch for</div>
@@ -330,91 +326,52 @@ Still no single “contract” for the system behavior.
       </div>
     </div>
     <div class="demo-card">
-      <div class="label">Debrief</div>
-      <div class="body">What survives if we swap agents tomorrow?</div>
+      <div class="label">Narrate + Debrief</div>
+      <div class="body">
+        <ul>
+          <li>“Context engineering is input design.”</li>
+          <li>“We reduce ambiguity to reduce hallucinations.”</li>
+          <li>Output is more consistent… but where is the <i>contract</i>?</li>
+          <li>If we swap agents tomorrow, what survives?</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
----
-
-## Demo #2 script (Context) — same feature, better context
-
-<div class="two-col">
-  <div class="col">
-    <div class="callout">
-      <div class="label">Before you prompt, paste guardrails</div>
-      <ul>
-        <li>File structure expectations</li>
-        <li>Naming conventions</li>
-        <li>Schema / data model constraints</li>
-        <li>Security + validation rules (basic)</li>
-        <li><b>Do not change X</b>; only implement Y</li>
-      </ul>
-    </div>
-  </div>
-  <div class="col">
-    <div class="callout">
-      <div class="label">Narrate while it runs</div>
-      <ul>
-        <li>“Context engineering is input design.”</li>
-        <li>“We remove ambiguity to reduce hallucinations.”</li>
-      </ul>
-    </div>
-    <div class="callout subtle">
-      <div class="label">Debrief (2 minutes)</div>
-      <ul>
-        <li>Output is more consistent… but where is the <i>contract</i>?</li>
-        <li>If we swap agents tomorrow, what survives?</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!--
-If time is short, compress this demo:
-Show the same request with constraints, then jump to SDD as the durable artifact.
--->
 
 ---
-
----
-layout: statement
-class: section
----
-
-# Part 4
-## Spec-Driven Development
-
----
-
-## Part 4 — Spec-Driven Development (SDD)
-
-Reliability-first engineering.
-
-<!--
-Transition line:
-“Now let’s stop ‘prompting’ and start ‘specifying’.”
--->
-
+class: sdd-compact
 ---
 
 ## 3) Spec-Driven Development (SDD)
 
-### What it is
-You define behavior first:
-- Inputs
-- Outputs
-- Rules
-- Edge cases
+**Production-ready, eeliability-first engineering**
+- Define the *specification first*, then generate the implementation.
+- Specification (what/why) is **decoupled** from implementation (how).
 
-Then the agent generates:
-- Implementation
-- Tests
-- Validation logic
+**Define Upfront ("The Constitution")**
+- Business requirements + use case
+- Architecture + constraints (inputs/outputs)
+- Acceptance criteria + edge cases
+- Coding standards
 
-### Principle
-**Specification (what/why) is decoupled from Implementation (how).**
+**Agent Role**
+- Generate code, tests, validation logic
+
+**Built-in Quality**
+- Strong contracts (schemas, APIs, invariants)
+- Constrained, verifiable outputs
+- Automated validation
+
+**Human Feedback Loop (HFL)**
+- Refine the spec (upstream), Guide output (downstream)
+
+<img
+  class="sdd-float-img"
+  src="/assets/spec_driven_development.jpg"
+  alt="AI Dev Engineer"
+/>
 
 ---
 

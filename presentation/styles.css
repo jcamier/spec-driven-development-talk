@@ -391,3 +391,93 @@
   box-shadow: 0 10px 24px rgba(2, 6, 23, 0.16);
 }
 
+/* Compact context slide */
+.slidev-layout.context-compact h2 {
+  margin-bottom: 0.2em;
+}
+
+.slidev-layout.context-compact h3 {
+  margin-top: 0.38em;
+  margin-bottom: 0.16em;
+  font-size: 0.98em;
+}
+
+.slidev-layout.context-compact ul {
+  margin-top: 0;
+  margin-bottom: 0.26em;
+  line-height: 1.18;
+  font-size: 0.88em;
+}
+
+.context-img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.16);
+}
+
+/* Compact context demo slide */
+.slidev-layout.context-demo-compact .demo-head .desc {
+  margin-bottom: 10px;
+}
+
+.slidev-layout.context-demo-compact .demo-grid {
+  gap: 10px;
+}
+
+.slidev-layout.context-demo-compact .demo-card {
+  padding: 10px 10px 9px;
+}
+
+.slidev-layout.context-demo-compact .demo-card .body {
+  font-size: 0.92em;
+  line-height: 1.26;
+}
+
+.slidev-layout.context-demo-compact .demo-card ul {
+  margin: 0.12em 0 0;
+}
+
+/* Compact SDD definition slide */
+.slidev-layout.sdd-compact {
+  position: relative;
+  padding-right: 44%;
+}
+
+.slidev-layout.sdd-compact h2 {
+  margin-bottom: 0.05em;
+  font-size: 2.2em;
+  line-height: 1.05;
+}
+
+.slidev-layout.sdd-compact p,
+.slidev-layout.sdd-compact li {
+  font-size: 0.78em;
+  line-height: 1.1;
+}
+
+.slidev-layout.sdd-compact ul {
+  margin-top: 0.08em;
+  margin-bottom: 0.04em;
+  padding-left: 0.95em;
+}
+
+.slidev-layout.sdd-compact strong {
+  display: block;
+  margin-top: 0.12em;
+  margin-bottom: 0.05em;
+  font-size: 0.86em;
+}
+
+.sdd-float-img {
+  position: absolute;
+  right: 0;
+  top: 3.2em;
+  width: 40%;
+  max-width: 380px;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.16);
+}
+
