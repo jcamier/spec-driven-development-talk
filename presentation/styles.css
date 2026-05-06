@@ -317,3 +317,19 @@
   box-shadow: 0 14px 30px rgba(2, 6, 23, 0.18);
 }
 
+/* Compact table slide for history timeline */
+.slidev-layout.compact-history h2 {
+  margin-bottom: 0.35em;
+}
+
+.slidev-layout.compact-history table {
+  font-size: 0.84em;
+  line-height: 1.25;
+}
+
+.slidev-layout.compact-history th,
+.slidev-layout.compact-history td {
+  padding-top: 0.42em;
+  padding-bottom: 0.42em;
+}
+

@@ -85,19 +85,20 @@ Sources:
 
 
 ---
+class: compact-history
+---
 
-## The History of Developer Fears
+## The History of Developer's Fears
 
 | Era | Worry at the time | What actually happened |
 |---|---|---|
-| 1970s-1980s (Assembly -> High-level languages) | "Compilers will replace real programmers" | Productivity jumped; engineering moved up to system design |
-| 1990s-2000s (Desktop -> Web) | "Web is a toy and won't replace desktop" | Web became dominant; SaaS and platform engineering exploded |
-| 2010s (On-prem -> Cloud) | "Cloud will eliminate ops jobs" | Roles evolved into DevOps, SRE, platform and cloud architecture |
-| Late 2000s-2010s (Mobile shift) | "Too many frameworks, impossible to keep up" | Mobile-first products became standard; new app ecosystems emerged |
-| 2020s-present (AI agents) | "AI will replace developers" | Coding accelerates, but human judgment, architecture, and validation matter more |
+| 1970s-80s (Assembly -> HLLs) | "Compilers replace programmers" | Productivity jumped; value moved to system design |
+| 1990s-2000s (Desktop -> Web) | "Web is a toy" | Web became dominant; SaaS/platform work exploded |
+| 2010s (On-prem -> Cloud) | "Cloud kills ops jobs" | Roles evolved into DevOps, SRE, platform engineering |
+| Late 2000s-2010s (Mobile) | "Too many frameworks" | Mobile development jobs explode |
+| 2020s-present (AI agents) | "AI replaces developers" | Coding accelerates; judgment + validation matter more |
 
-### Pattern
-New abstraction appears -> fear spikes -> productivity rises -> role evolves -> adapters win.
+**Pattern:** new abstraction -> fear spikes -> productivity rises -> role evolves -> adapters win.
 ---
 
 ## A familiar abstraction stack
