@@ -408,16 +408,22 @@ class: short-video
 
 ---
 
-## The SDD workflow you can copy
+## The SDD Workflow Standardized (3 docs only)
 
-### A) Write the “Constitution”
-- **Mission**: why, audience, scope
-- **Tech stack**: constraints, defaults, deployment assumptions
-- **Roadmap**: phases and features
+This is simplied to just **3 artifacts**:
+- Some use 5, 6, 7 😉, etc...
 
-### B) Feature loop (repeat)
+- `constitution.md` → business requirements, mission, scope, quality bar
+- `tech-stack.md` → architecture, contracts, invariants, stack constraints
+- `implementation-plan.md` → phases, features, exit criteria, feature specs
+
+### Execution loop (repeat)
 - Plan → implement → validate
 - Keep branches and diffs reviewable
+
+### Note
+Another way to do this is [GitHub Spec Kit](https://github.com/github/spec-kit).
+This workflow is a simplified version optimized for developer adoption.
 
 ---
 
