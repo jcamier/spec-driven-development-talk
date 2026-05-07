@@ -4,6 +4,9 @@ resources/
 # Slidev / Node
 presentation/node_modules/
 presentation/package-lock.json
+presentation/slides.local.md
+presentation/bio.local.md
+presentation/assets/bio.local.*
 
 # OS / editor
 .DS_Store

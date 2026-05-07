@@ -553,6 +553,24 @@ class: sdd-demo-compact
 
 ---
 
+## Resources:
+
+### Learn SDD
+- Free DeepLearning.AI course: [Spec-Driven Development with Coding Agents](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/information)
+
+### SDD alternatives / related methods
+- OpenSpec: [github.com/Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)
+- BMAD Method: [github.com/bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+- BMAD overview video: [youtube.com/watch?v=LorEJPrALcg](https://www.youtube.com/watch?v=LorEJPrALcg)
+
+### AI coding options
+- OpenCode: [opencode.ai](https://opencode.ai/)
+
+### Agent skills list
+- Awesome Agent Skills: [github.com/VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+
+---
+
 ## Questions ???
 
 
