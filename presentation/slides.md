@@ -49,6 +49,16 @@ mdc: true
 
 ---
 
+## QR Code GitHub Repo if you want to follow along
+
+<img
+  class="landscape-img center"
+  src="/assets/github-talk-qr.png"
+  alt="Spec Driven GitHub Repo"
+/>
+
+---
+
 ## What’s changing
 
 ### The shift
