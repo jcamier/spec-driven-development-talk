@@ -563,3 +563,68 @@
   box-shadow: 0 10px 24px rgba(2, 6, 23, 0.16);
 }
 
+/* Compact combined SDD demo slide */
+.slidev-layout.sdd-demo-compact {
+  padding: 0.9rem 1.15rem 0.75rem !important;
+}
+
+.slidev-layout.sdd-demo-compact h2 {
+  margin-bottom: 0.12em;
+  font-size: 2.05em;
+  line-height: 1.04;
+}
+
+.slidev-layout.sdd-demo-compact .demo-head .desc {
+  margin-bottom: 10px;
+}
+
+.slidev-layout.sdd-demo-compact .demo-intro {
+  margin: 0 0 6px;
+  font-size: 0.84em;
+  color: rgba(2, 6, 23, 0.78);
+}
+
+.slidev-layout.sdd-demo-compact .demo-grid {
+  gap: 8px;
+}
+
+.slidev-layout.sdd-demo-compact .demo-card {
+  padding: 8px 9px 7px;
+}
+
+.slidev-layout.sdd-demo-compact .demo-card .body {
+  font-size: 0.82em;
+  line-height: 1.14;
+}
+
+.slidev-layout.sdd-demo-compact .demo-card ul {
+  margin: 0.06em 0 0;
+  padding-left: 1em;
+}
+
+.slidev-layout.sdd-demo-compact h3 {
+  margin-top: 0.35em;
+  margin-bottom: 0.14em;
+  font-size: 0.9em;
+}
+
+.slidev-layout.sdd-demo-compact .two-col {
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.slidev-layout.sdd-demo-compact .callout {
+  padding: 10px 10px 8px;
+}
+
+.slidev-layout.sdd-demo-compact .callout .label {
+  margin-bottom: 6px;
+  font-size: 0.7em;
+}
+
+.slidev-layout.sdd-demo-compact .callout ul {
+  margin: 0;
+  line-height: 1.14;
+  font-size: 0.83em;
+}
+

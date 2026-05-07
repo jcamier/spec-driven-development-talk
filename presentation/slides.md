@@ -473,15 +473,13 @@ You are the architect / AI supervisor:
 - Ultimately, you have agency and you will be held accountable for your work, not the AI Agents
 
 ---
+class: sdd-demo-compact
+---
 
 ## Live demo #3 (SDD)
 
 <div class="demo">
-  <div class="demo-head">
-    <div class="kicker">Live demo #3</div>
-    <div class="title">Spec-Driven Development</div>
-    <div class="desc">Turn intent into a contract, then generate + validate.</div>
-  </div>
+  <p class="demo-intro">Turn intent into a contract, then generate + validate.</p>
   <div class="demo-grid">
     <div class="demo-card">
       <div class="label">Goal</div>
@@ -504,9 +502,7 @@ You are the architect / AI supervisor:
   </div>
 </div>
 
----
-
-## Demo #3 script (SDD) — the “mini-feature loop”
+### Mini-feature loop (script)
 
 <div class="two-col">
   <div class="col">
@@ -543,11 +539,6 @@ You are the architect / AI supervisor:
     </div>
   </div>
 </div>
-
-<!--
-Core narration:
-“In SDD the spec is the durable artifact. Code is the output.”
--->
 
 ---
 
