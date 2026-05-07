@@ -7,6 +7,7 @@ presentation/package-lock.json
 presentation/slides.local.md
 presentation/bio.local.md
 presentation/assets/bio.local.*
+presentation/assets/linkedin.bio.qr.png
 
 # OS / editor
 .DS_Store
