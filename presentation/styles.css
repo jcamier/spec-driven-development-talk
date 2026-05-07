@@ -628,3 +628,19 @@
   font-size: 0.83em;
 }
 
+.slidev-layout.sdd-demo-compact p {
+  margin: 0.2em 0 0.3em;
+  font-size: 0.82em;
+}
+
+.slidev-layout.sdd-demo-compact pre {
+  margin-top: 0.3em;
+  max-height: 360px;
+  overflow: auto;
+}
+
+.slidev-layout.sdd-demo-compact pre code {
+  font-size: 0.58em;
+  line-height: 1.35;
+}
+

@@ -460,9 +460,10 @@ class: constitution-compact
 ---
 
 
-## Human-in-the-loop: your new core job
+## Human Feedback Loop (HFL):
+- You, the engineer, have agency and use judgment to review, redirect, and approve the agent’s work
 
-You are the architect / AI supervisor:
+### You are the architect / AI supervisor:
 - Review for **spec alignment**
 - Keep changes **manageable**
 - Fix drift by updating **spec + implementation**
@@ -478,64 +479,74 @@ class: sdd-demo-compact
 
 ## Live demo #3 (SDD)
 
+### Artifact 1 — `demo/constitution.md`
+
+Live view from the demo artifact (auto-updates when file changes):
+
+<script setup>
+import constitutionArtifact from '../demo/constitution.md?raw'
+</script>
+
+<pre><code>{{ constitutionArtifact }}</code></pre>
+
+---
+class: sdd-demo-compact
+---
+
+## Live demo #3 (SDD)
+
+### Artifact 2 — `demo/tech-stack.md`
+
+Live view from the demo artifact (auto-updates when file changes):
+
+<script setup>
+import techStackArtifact from '../demo/tech-stack.md?raw'
+</script>
+
+<pre><code>{{ techStackArtifact }}</code></pre>
+
+---
+class: sdd-demo-compact
+---
+
+## Live demo #3 (SDD)
+
+### Artifact 3 — `demo/implementation-plan.md`
+
+Live view from the demo artifact (auto-updates when file changes):
+
+<script setup>
+import implementationPlanArtifact from '../demo/implementation-plan.md?raw'
+</script>
+
+<pre><code>{{ implementationPlanArtifact }}</code></pre>
+
+---
+class: sdd-demo-compact
+---
+
+## Live demo #3 (SDD) — run + debrief
+
 <div class="demo">
   <p class="demo-intro">Turn intent into a contract, then generate + validate.</p>
   <div class="demo-grid">
     <div class="demo-card">
       <div class="label">Goal</div>
-      <div class="body">Build one feature from a <b>mini-spec</b>.</div>
+      <div class="body">Build one feature from the three artifacts in <b>demo/</b>.</div>
     </div>
     <div class="demo-card">
       <div class="label">Watch for</div>
       <div class="body">
         <ul>
-          <li>The spec becomes the durable artifact</li>
-          <li>Implementation becomes an execution step</li>
-          <li>Validation is explicit (scorecard)</li>
+          <li>Specs drive implementation decisions</li>
+          <li>Code generation follows explicit constraints</li>
+          <li>Validation gates are visible and repeatable</li>
         </ul>
       </div>
     </div>
     <div class="demo-card">
-      <div class="label">Debrief</div>
-      <div class="body">What changed in your role as “developer”?</div>
-    </div>
-  </div>
-</div>
-
-### Mini-feature loop (script)
-
-<div class="two-col">
-  <div class="col">
-    <div class="callout">
-      <div class="label">Step 1 — Write the mini-spec (3–5 min)</div>
-      <ul>
-        <li>Inputs / outputs / rules / edge cases</li>
-        <li>Explicit “won’t do” scope boundary</li>
-        <li>Validation checklist</li>
-      </ul>
-    </div>
-    <div class="callout">
-      <div class="label">Step 2 — Generate (5–10 min)</div>
-      <ul>
-        <li>Ask for a plan first</li>
-        <li>Then implement</li>
-      </ul>
-    </div>
-  </div>
-  <div class="col">
-    <div class="callout">
-      <div class="label">Step 3 — Validate (5–10 min)</div>
-      <ul>
-        <li>Run the scorecard</li>
-        <li>If something fails: update <b>spec + code</b></li>
-      </ul>
-    </div>
-    <div class="callout subtle">
-      <div class="label">Step 4 — Show leverage (optional, 3–8 min)</div>
-      <ul>
-        <li>Change one line in the spec</li>
-        <li>Regenerate / refactor and validate again</li>
-      </ul>
+      <div class="label">Narrate + Debrief</div>
+      <div class="body">What changed in your role as “developer” when the spec becomes the source of truth?</div>
     </div>
   </div>
 </div>
