@@ -3,6 +3,11 @@
 This repo contains a Slidev presentation on where software development is
 going: **Vibe Coding -> Context Engineering -> Spec-Driven Development**.
 
+### License
+
+This presentation is licensed under **Creative Commons Attribution 4.0
+International (CC BY 4.0)**. See `LICENSE`.
+
 ### Repo layout
 
 - `presentation/`: Slidev deck (`slides.md`, `styles.css`, assets)
